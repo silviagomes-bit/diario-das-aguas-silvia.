@@ -1,13 +1,13 @@
 // firebase-config.js
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCX0el34g6t8QgGigp3nGaVnXSAgfoNM7U",
-  authDomain: "diario-das-aguas-unemat.firebaseapp.com",
-  projectId: "diario-das-aguas-unemat",
-  storageBucket: "diario-das-aguas-unemat.firebasestorage.app",
-  messagingSenderId: "260533766070",
-  appId: "1:260533766070:web:4b0603a0d40a5a57ef2317"
-};
+ apiKey: "AIzaSyBq6yO3tocrZaoCHrV8H-5Ey18lh3mAETo",
+    authDomain: "diario-das-aguas-1.firebaseapp.com",
+    projectId: "diario-das-aguas-1",
+    storageBucket: "diario-das-aguas-1.firebasestorage.app",
+    messagingSenderId: "857490149038",
+    appId: "1:857490149038:web:b75de2cb170879662e273f"
+  };
 
 try {
   if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
